@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "687a3029b656aa43ef92100d"
+  },
+  "product_id": 101,
+  "name": "Laptop",
+  "category": "Electronics",
+  "price": 55000,
+  "stock": 10
+},
+{
+  "_id": {
+    "$oid": "687a3029b656aa43ef92100e"
+  },
+  "product_id": 102,
+  "name": "Mouse",
+  "category": "Electronics",
+  "price": 700,
+  "stock": 50
+},
+{
+  "_id": {
+    "$oid": "687a3029b656aa43ef92100f"
+  },
+  "product_id": 103,
+  "name": "Office Chair",
+  "category": "Furniture",
+  "price": 4500,
+  "stock": 5
+},
+{
+  "_id": {
+    "$oid": "687a3029b656aa43ef921010"
+  },
+  "product_id": 104,
+  "name": "Notebook",
+  "category": "Stationery",
+  "price": 50,
+  "stock": 300
+},
+{
+  "_id": {
+    "$oid": "687a3029b656aa43ef921011"
+  },
+  "product_id": 105,
+  "name": "Water Bottle",
+  "category": "Kitchen",
+  "price": 250,
+  "stock": 100
+}]
