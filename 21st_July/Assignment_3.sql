@@ -67,7 +67,7 @@ select * from orders where order_date = '2023-01-01';
 -- 4 
 select c.name, b.title from orders o
 join customers c on o.customer_id = c.customer_id 
-join books b on b.book_id = b.book_id;
+join books b on o.book_id = b.book_id;
 
 -- 5
 select b.genre, SUM(o.quantity) as total_books_sold from orders o
