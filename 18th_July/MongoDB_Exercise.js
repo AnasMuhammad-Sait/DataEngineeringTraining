@@ -19,10 +19,9 @@ db.products.find({ stock: { $gte: 10, $lte: 100 }})
 
 db.products.find({ price: { $ne: 700 }})
 
-db.products.find({name: {$regex: "^N"} })
+db.products.find({ product_name: { $regex: /^N/, $options: 'i' } })
 
 db.products.find({ stock: {$lte: 5 }})
 
 db.products.find({ category: {$nin: ["Stationery", "Kitchen"] }})
   
-db.products.findOne({ category: {$ne: "Furniture"} })
